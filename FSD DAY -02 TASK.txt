@@ -1,0 +1,15 @@
+Write a blog on difference between documents & windows objects
+
+1.Foundations of Web Content: Documents, typically in the form of HTML files, serve as the fundamental building blocks of web content. They define the structure, layout, and presentation of information displayed in web browsers.
+
+2.DOM Representation: Documents are represented in the browser environment through the Document Object Model (DOM), a hierarchical tree structure that provides a structured representation of the document's elements, allowing for programmatic manipulation via scripting languages like JavaScript.
+
+3.Browser Environment Gateway: Window objects act as the gateway to the broader browser environment. Each browser window or tab corresponds to a window object, encapsulating not only the document being displayed but also various browser functionalities and properties.
+
+4.Global Scope: Window objects serve as the global scope for JavaScript code executing within the browser environment. They provide access to global functions, variables, and objects, facilitating cross-document communication and interaction.
+
+5.Browser Interactions: Window objects enable interactions with the browser, including operations such as navigation (changing URLs), handling browser events (resizing, closing), and accessing browser features (localStorage, sessionStorage).
+
+6.Cross-Origin Communication: Window objects facilitate secure communication between documents from different origins (e.g., different domains, protocols, or ports) through mechanisms like postMessage(), enabling cross-origin interactions while mitigating security risks.
+
+7.DOM Manipulation: JavaScript code running within the context of a window object can manipulate the Document Object Model (DOM) hierarchy, dynamically updating the content and appearance of the associated document in response to user actions or application log
